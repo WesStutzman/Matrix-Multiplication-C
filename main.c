@@ -6,6 +6,8 @@
 #include <time.h>
 #include <pthread.h>
 
+// Edit number of threads to run on
+// ~1 thread per core
 #define NUMOFTHREADS 1
 
 // Struct designed to pass values into functions
